@@ -116,7 +116,7 @@ namespace StudiiClinice
            
 
             // Construirea șirului de conexiune
-            string connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Irina_PC)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)));User Id=SYSTEM;Password=admin;";
+            string connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=Irina_PC)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)));User Id=******;Password=*****;";
 
 
             con = new OracleConnection(connectionString);
